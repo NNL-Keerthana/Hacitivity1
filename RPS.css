@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(62, 42, 155);
+    background-image: url('game.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+  
+.selections {
+    display: flex;
+    justify-content: center;
+}
+  
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 7rem;
+    transition: 100ms;
+}
+  
+.selection:hover {
+    transform: scale(1.2);
+}
+.results {
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+  
+.result-score {
+    margin-left: .1rem;
+    font-size: 2rem;
+    color: rgb(14, 12, 9);
+}
+  
+.result-selection {
+    opacity: .5;
+}
+.result-selection.winner {
+    opacity: 1;
+    font-size: 3rem;
+}
