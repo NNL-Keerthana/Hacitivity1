@@ -1,0 +1,28 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: sans-serif;
+
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+} 
+
+.LightMode {
+    background-color: #fafafa;
+    color: black;
+  }  
+
+  hr{
+    width: 100%; text-align: left; margin-left: 0 
+  }
+
+  button{
+    float: right;
+  }
+
+  img{
+    background-color: transparent;     
+  }
+
+  
