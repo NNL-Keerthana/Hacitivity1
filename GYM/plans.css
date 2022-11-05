@@ -1,0 +1,546 @@
+.Plans_1
+{
+width: 100%;
+height: 100%;
+background: #111;
+padding: 50px 15px 50px 15px;
+}
+
+.Plans_1 .text_1
+{
+width: 1200px;
+margin:auto;
+padding:25px 0px;
+}
+
+.Plans_1 .text_1 h1
+{
+color: #fff;
+font-weight: bold;
+font-size: 40px;
+text-align: center;
+padding: 20px;
+}
+.Plans_1 .text_1 h2
+{
+color: #fff;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+}
+.Plans_1 .text_1 span
+{
+color: #e33;
+font-weight: bold;
+}
+.Plans_1 .box_1
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 50px 20px;
+}
+.Plans_1 .box_1 div
+{
+width: 200px;
+background:#e33;
+border-radius: 10px;
+text-align: center;
+padding:10px;
+}
+.Plans_1 .box_1 div ion-icon
+{
+color: rgb(195, 35, 35);
+font-size: 50px;
+padding-top: 20px;
+}
+.Plans_1 .box_1 div h2
+{
+font-weight: bold;
+cursor: pointer;
+padding-top: 20px;
+}
+.Plans_1 .box_1 div p
+{
+color: white;
+line-height: 25px;
+padding:10px;
+font-weight: bold;
+font-family: Arial;
+}
+.Plans_1 .box_1 .day_4 h2{
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 4px;
+
+}
+
+.Plans_1 .box_1 .day_4 p
+{
+color: white;
+line-height: 25px;
+padding:5px;
+font-weight: bold;
+font-family: Arial;
+}
+
+.Plans_1 .box_1 .day_1 p
+{
+color: white;
+line-height: 20px;
+padding:3px;
+font-weight: bold;
+font-family: Arial;
+}
+
+.Plans_2
+{
+width: 100%;
+height: 100%;
+background: #111;
+padding: 50px 15px 50px 15px;
+}
+
+.Plans_2 .text_2
+{
+width: 1200px;
+margin:auto;
+padding:25px 0px;
+}
+
+.Plans_2 .text_2 h1
+{
+color: #fff;
+font-weight: bold;
+font-size: 30px;
+text-align: center;
+}
+.Plans_2 .text_2 h2
+{
+color: #fff;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+}
+.Plans_2 .text_2 span
+{
+color: #e33;
+font-weight: bold;
+}
+.Plans_2 .box_2
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 30px 20px;
+}
+.Plans_2 .box_2 div
+{
+width: 200px;
+background:#e33;
+border-radius: 10px;
+text-align: center;
+padding:10px;
+}
+.Plans_2 .box_2 div ion-icon
+{
+color: rgb(195, 35, 35);
+font-size: 50px;
+padding-top: 20px;
+}
+.Plans_2 .box_2 div h2
+{
+font-weight: bold;
+cursor: pointer;
+padding-top: 20px;
+}
+.Plans_2 .box_2 div p
+{
+color: white;
+line-height: 25px;
+padding:10px;
+font-weight: bold;
+font-family: Arial;
+}
+.Plans_2 .box_2 .day_6 h2{
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 30px;
+
+}
+
+.Plans_2 .box_2 .day_6 p
+{
+color: white;
+line-height: 25px;
+padding:17px;
+font-weight: bold;
+font-family: Arial;
+}
+
+.Plans_3
+{
+width: 100%;
+height: 100%;
+background: #111;
+padding: 50px 15px 50px 15px;
+}
+
+.Plans_3 .text_3
+{
+width: 1200px;
+margin:auto;
+padding:25px 0px;
+}
+
+.Plans_3 .text_3 h1
+{
+color: #fff;
+font-weight: bold;
+font-size: 30px;
+text-align: center;
+}
+.Plans_3 .text_3 h2
+{
+color: #fff;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+}
+.Plans_3 .text_3 span
+{
+color: #e33;
+font-weight: bold;
+}
+.Plans_3 .box_3
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 30px 20px;
+}
+.Plans_3 .box_3 div
+{
+width: 200px;
+background:#e33;
+border-radius: 10px;
+text-align: center;
+padding:10px;
+}
+.Plans_3 .box_3 div ion-icon
+{
+color: rgb(195, 35, 35);
+font-size: 50px;
+padding-top: 20px;
+}
+.Plans_3 .box_3 div h2
+{
+font-weight: bold;
+cursor: pointer;
+padding-top: 20px;
+}
+.Plans_3 .box_3 div p
+{
+color: white;
+line-height: 25px;
+padding:10px;
+font-weight: bold;
+font-family: Arial;
+}
+.Plans_3 .box_3 .day_11 h2{
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 30px;
+
+}
+
+.Plans_3 .box_3 .day_11 p
+{
+color: white;
+line-height: 25px;
+padding:17px;
+font-weight: bold;
+font-family: Arial;
+}
+
+.Plans_4
+{
+width: 100%;
+height: 100%;
+background: #111;
+padding: 50px 15px 50px 15px;
+}
+
+.Plans_4 .text_4
+{
+width: 1200px;
+margin:auto;
+padding:25px 0px;
+}
+
+.Plans_4 .text_4 h1
+{
+color: #fff;
+font-weight: bold;
+font-size: 30px;
+text-align: center;
+}
+.Plans_4 .text_4 h2
+{
+color: #fff;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+}
+.Plans_4 .text_4 span
+{
+color: #e33;
+font-weight: bold;
+}
+.Plans_4 .box_4
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 30px 20px;
+}
+.Plans_4 .box_4 div
+{
+width: 200px;
+background:#e33;
+border-radius: 10px;
+text-align: center;
+padding:10px;
+}
+.Plans_4 .box_4 div ion-icon
+{
+color: rgb(195, 35, 35);
+font-size: 50px;
+padding-top: 20px;
+}
+.Plans_4 .box_4 div h2
+{
+font-weight: bold;
+cursor: pointer;
+padding-top: 20px;
+}
+.Plans_4 .box_4 div p
+{
+color: white;
+line-height: 25px;
+padding:10px;
+font-weight: bold;
+font-family: Arial;
+}
+.Plans_4 .box_4 .day_9 h2{
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 4px;
+}
+
+.Plans_4 .box_4 .day_16 h2{
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 30px;
+
+}
+
+.Plans_4 .box_4 .day_16 p
+{
+color: white;
+line-height: 25px;
+padding:17px;
+font-weight: bold;
+font-family: Arial;
+}
+
+.Plans_5
+{
+width: 100%;
+height: 100%;
+background: #111;
+padding: 50px 15px 50px 15px;
+}
+
+.Plans_5 .text_5
+{
+width: 1200px;
+margin:auto;
+padding:25px 0px;
+}
+
+.Plans_5 .text_5 h1
+{
+color: #fff;
+font-weight: bold;
+font-size: 30px;
+text-align: center;
+}
+.Plans_5 .text_5 h2
+{
+color: #fff;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+}
+.Plans_5 .text_5 span
+{
+color: #e33;
+font-weight: bold;
+}
+.Plans_5 .box_5
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 30px 20px;
+}
+.Plans_5 .box_5 div
+{
+width: 200px;
+background:#e33;
+border-radius: 10px;
+text-align: center;
+padding:10px;
+}
+.Plans_5 .box_5 div ion-icon
+{
+color: rgb(195, 35, 35);
+font-size: 50px;
+padding-top: 20px;
+}
+.Plans_5 .box_5 div h2
+{
+font-weight: bold;
+cursor: pointer;
+padding-top: 20px;
+}
+.Plans_5 .box_5 div p
+{
+color: white;
+line-height: 25px;
+padding:10px;
+font-weight: bold;
+font-family: Arial;
+}
+.Plans_5 .box_5 .day_21 h2{
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 30px;
+
+}
+
+.Plans_5 .box_5 .day_21 p
+{
+color: white;
+line-height: 25px;
+padding:17px;
+font-weight: bold;
+font-family: Arial;
+}
+.Plans_5 .box_5 .day_23 h2{
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 6px;
+
+}
+
+.Plans_5 .box_5 .day_23 p
+{
+color: white;
+line-height: 25px;
+padding:8px;
+font-weight: bold;
+font-family: Arial;
+}
+
+.Plans_6
+{
+width: 100%;
+height: 100%;
+background: #111;
+padding: 50px 15px 50px 15px;
+}
+
+.Plans_6 .text_6
+{
+width: 1200px;
+margin:auto;
+padding:25px 0px;
+}
+
+.Plans_6 .text_6 h1
+{
+color: #fff;
+font-weight: bold;
+font-size: 30px;
+text-align: center;
+}
+.Plans_6 .text_6 h2
+{
+color: #fff;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+}
+.Plans_6 .text_6 span
+{
+color: #e33;
+font-weight: bold;
+}
+.Plans_6 .box_6
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 30px 20px;
+}
+.Plans_6 .box_6 div
+{
+width: 200px;
+background:#e33;
+border-radius: 10px;
+text-align: center;
+padding:10px;
+}
+.Plans_6 .box_6 div ion-icon
+{
+color: rgb(195, 35, 35);
+font-size: 50px;
+padding-top: 20px;
+}
+.Plans_6 .box_6 div h2
+{
+font-weight: bold;
+cursor: pointer;
+padding-top: 20px;
+}
+.Plans_6 .box_6 div p
+{
+color: white;
+line-height: 25px;
+padding:10px;
+font-weight: bold;
+font-family: Arial;
+}
+.Plans_6 .box_6 .day_9 h2{
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 4px;
+}
+
+.Plans_6 .box_6 .day_26 h2{
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 30px;
+
+}
+
+.Plans_6 .box_6 .day_26 p
+{
+color: white;
+line-height: 25px;
+padding:17px;
+font-weight: bold;
+font-family: Arial;
+}

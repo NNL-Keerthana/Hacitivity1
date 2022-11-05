@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendence</title>
+    <script language="javascript">
+        function fn(){
+            n = Number(document.getElementById("num1").value);
+            x = document.getElementById("Sub").value;
+            if(x == '1'){
+                t = Math.floor(59*0.2-n);
+            }
+            else if(x == '2'){
+                t = Math.floor(59*0.2-n);
+            }
+            else if(x == '3'){
+                t = Math.floor(60*0.2-n);
+            }
+            else if(x == '4'){
+                t = Math.floor(45*0.2-n);
+            }
+            else if(x == '5'){
+                t = Math.floor(45*0.2-n);
+            }
+            else if(x == '6'){
+                t = Math.floor(15*0.2 - n);
+            }
+            else if(x == '7'){
+                t = Math.floor(30*0.2-n);
+            }
+            if(t>=0)
+                document.getElementById("Bunks").value = t;
+            else document.getElementById("Bunks").value = 0;
+        }
+    </script>
+    <style language="css">
+            body{
+                font-family: "Lato", sans-serif;
+                background-image: url('Class.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                background-attachment: fixed;
+                margin-top: 17%;
+            }
+            .Bunk{
+                margin-top: 15px;
+                font-weight: bold;
+                color: #000000;
+                opacity:2.7;
+            }
+            fieldset{
+                width:350px;
+                background-color: #F5DEB3;
+            }
+        </style>
+</head>
+<body>
+    <div class="d" align="center">
+        <form>
+            <fieldset>
+        <h2 align="Center">Sem-III Bunk Calculator</h2>
+        <div class="Bunk">
+            <table align="center" class="tabs">
+                <tr>
+                    <td><b>Subjects:</b></td>
+                    <td>
+                        <select id="Sub" size="1">
+                            <option>Subjects</option>
+                            <option value="1">IMA 211 Mathematics</option>
+                            <option value="2">ICS 211 Design and analysis of Algorithms </option>
+                            <option value="3">ICS 212 Operating System</option>
+                            <option value="4">ICS 213 DBMS</option>
+                            <option value="5">ICS 214 ITWorkshop III</option>                        
+                            <option value="6">ICS 215 Data Structures II</option>                    
+                            <option value="7">ISC 211 Introduction to Bioinformatics</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>No.of class Bunks:</b></td>
+                    <td><input type="text" id="num1"  /><br></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" onclick="fn()" ></td>
+                </tr>
+                <tr>
+                    <td><b>No.of Bunks remaining:</b></td>
+                    <td><input type="text" id="Bunks" /></td>
+                </tr>
+            </table>    
+        </div>
+    </fieldset>
+    </form>
+    </div>
+</body>
+</html>
