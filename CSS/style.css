@@ -232,7 +232,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../images/iiitk.jpg');
+    background: url('/images/Oat.jpeg');
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -498,5 +498,9 @@ footer.footer .move-up span:hover{
     }
 
 }
+.home {
+    
+        background-image: url("")
+      }
 
 /*        x      Viewport less then or equal to 520px       x     */
