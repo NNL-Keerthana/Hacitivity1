@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Document</title>
+   <!-- <style language="css">
+       body{
+            background-image: url('images\tablebg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+       }
+    </style> -->
+    <script lang="javascript">
+        function fn(){
+            var a = Number(document.getElementById("1").value);
+            var b = Number(document.getElementById("2").value);
+            var c = Number(document.getElementById("3").value);
+            var d = Number(document.getElementById("4").value);
+            var e = Number(document.getElementById("5").value);
+            var f = Number(document.getElementById("6").value);
+            var g = Number(document.getElementById("7").value);
+            var h = Number(document.getElementById("8").value);
+            var tot = a + b + c + d + e + f + g + h;
+            document.getElementById("9").innerHTML = " Needs Total: " + tot;
+
+            var AA = Number(document.getElementById("10").value);
+            var BB = Number(document.getElementById("11").value);
+            var CC = Number(document.getElementById("12").value);
+            var DD = Number(document.getElementById("13").value);
+            var EE = Number(document.getElementById("14").value);
+            var FF = Number(document.getElementById("15").value);
+            var GG = Number(document.getElementById("16").value);
+            var HH = Number(document.getElementById("17").value);
+            var II = Number(document.getElementById("18").value);
+            var TOT = AA+BB+CC+DD+EE+FF+GG+HH+II;
+            document.getElementById("19").innerHTML = " Wants Total: " + TOT;
+
+            var bud = Number(document.getElementById("budget").value);
+            document.getElementById("s").innerHTML = "Savings: " + (bud-(tot+Tot));
+        }
+    </script>
+</head>
+<body>
+    Enter Month's Budget:
+    <input type="text" id="budget">
+    <br>
+    <!-- 
+    <a href="Needs.html" target="_self">Needs</a>
+    <a href="wants.html" target="_self">Wants</a>-->
+    <h3>Needs</h3>
+    <table style="width: 99.4723%;" border="1" cellspacing="0" cellpading="0" >
+        <tr>
+            <th width="38%">Aa item</th>
+            <th width="15.3666%">#Amount</th>
+            <th style="width: 228.633%;">📝Notes</th>
+        </tr>
+        <tr>
+            <td>🏫Hostel</td>
+            <td><input type="text" id="1"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>🍞Mess</td>
+            <td><input type="text" id="2"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>📚Tuition/Courses/Books</td>
+            <td><input type="text" id="3"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>🌐Internet</td>
+            <td><input type="text" id="4"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>📱CellPhone</td>
+            <td><input type="text" id="5"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>🛍️Groceries</td>
+            <td><input type="text" id="6"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>🚇Public transportation</td>
+            <td><input type="text" id="7"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>🐥Other Needs</td>
+            <td><input type="text" id="8"></td>
+            <td><input type="text" size="100"></td>
+        </tr><!-- 
+        <tr><td align="center"><input type="submit" onclick="fn()"/>-->
+        </td><td colspan="3" align="center" id="9">
+        Needs Total</td></tr>        
+    </table>
+    <br>
+    <h3>Wants</h3>
+    <table style="width: 99.4723%;" border="01" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <th>Item</th>
+                <th>#Amount</th>
+                <th>📝Notes</th>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🍔Eating Out</td>
+                <td style="width: 15.3666%;"><input type="text" id="10" ></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🏐Hobbies</td>
+                <td style="width: 15.3666%;"><input type="text" id="11"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">📺Streaming Packages</td>
+                <td style="width: 15.3666%;"><input type="text" id="12"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🕺Entertainment</td>
+                <td style="width: 15.3666%;"><input type="text" id="13"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">👕Clothing</td>
+                <td style="width: 15.3666%;"><input type="text" id="14"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🧳Travel expenses</td>
+                <td style="width: 15.3666%;"><input type="text" id="15"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🏋️‍♀️Gym</td>
+                <td style="width: 15.3666%;"><input type="text" id="16"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🎂Birthday gifts</td>
+                <td style="width: 15.3666%;"><input type="text" id="17"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🐥Other Wants</td>
+                <td style="width: 15.3666%;"><input type="text" id="18"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr><!-- 
+                <td align="center"><input type="submit" onclick="fn1()" /></td>-->
+                <td colspan="3" align="center" id="19">Wants Total:</td>
+            </tr>
+        </tbody>
+        </table>
+        <br>
+        <input type="Submit" onclick="fn()" /><br>
+    <section id="s">Savings:</section>
+</body>
+</html>

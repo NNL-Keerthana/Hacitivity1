@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="javascript">
+        function fn1(){
+            var a = Number(document.getElementById("1").value);
+            var b = Number(document.getElementById("2").value);
+            var c = Number(document.getElementById("3").value);
+            var d = Number(document.getElementById("4").value);
+            var e = Number(document.getElementById("5").value);
+            var f = Number(document.getElementById("6").value);
+            var g = Number(document.getElementById("7").value);
+            var h = Number(document.getElementById("8").value);
+            var i = Number(document.getElementById("9").value);
+            var tot = a + b + c + d + e + f + g + h +i;
+            document.getElementById("Tot").innerHTML = "Total: " + tot;
+        }
+    </script>
+</head>
+<body>
+    <a href="Needs.html" target="_self">Needs</a>
+    <a href="wants.html" target="_self">Wants</a>
+    <table style="width: 99.4723%;" border="01" cellspacing="1" cellpadding="0">
+    <tbody>
+        <tr>
+            <th>Item</th>
+            <th>#Amount</th>
+            <th>📝Notes</th>
+        </tr>
+        <tr>
+            <td style="width: 38%;">🍔Eating Out</td>
+            <td style="width: 15.3666%;"><input type="text" id="1"></td>
+            <td style="width: 228.633%;"></td>
+        </tr>
+        <tr>
+            <td style="width: 38%;">🏐Hobbies</td>
+            <td style="width: 15.3666%;"><input type="text" id="2"></td>
+            <td style="width: 228.633%;"></td>
+        </tr>
+        <tr>
+            <td style="width: 38%;">📺Streaming Packages</td>
+            <td style="width: 15.3666%;"><input type="text" id="3"></td>
+            <td style="width: 228.633%;"></td>
+        </tr>
+        <tr>
+            <td style="width: 38%;">🕺Entertainment</td>
+            <td style="width: 15.3666%;"><input type="text" id="4"></td>
+            <td style="width: 228.633%;"></td>
+        </tr>
+        <tr>
+            <td style="width: 38%;">👕Clothing</td>
+            <td style="width: 15.3666%;"><input type="text" id="5"></td>
+            <td style="width: 228.633%;"></td>
+        </tr>
+        <tr>
+            <td style="width: 38%;">🧳Travel expenses</td>
+            <td style="width: 15.3666%;"><input type="text" id="6"></td>
+            <td style="width: 228.633%;"></td>
+        </tr>
+        <tr>
+            <td style="width: 38%;">🏋️‍♀️Gym</td>
+            <td style="width: 15.3666%;"><input type="text" id="7"></td>
+            <td style="width: 228.633%;"></td>
+        </tr>
+        <tr>
+            <td style="width: 38%;">🎂Birthday gifts</td>
+            <td style="width: 15.3666%;"><input type="text" id="8"></td>
+            <td style="width: 228.633%;"></td>
+        </tr>
+        <tr>
+            <td style="width: 38%;">🐥Other Wants</td>
+            <td style="width: 15.3666%;"><input type="text" id="9"></td>
+            <td style="width: 228.633%;"></td>
+        </tr>
+        <tr>
+            <td align="center"><input type="submit" onclick="fn()" /></td>
+            <td colspan="2" align="center" id="Tot">Total:</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
+
+    <!-- DivTable.com -->

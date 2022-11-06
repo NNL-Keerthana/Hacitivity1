@@ -94,16 +94,17 @@ p{
     color: var(--text-light);
 }
 
-
 /* ------x------- Global Classes -------x-------*/
 
 /* --------------- navbar ----------------- */
 
 .nav{
-    background: white;
+    background: url('/images/wave1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;    
     padding: 0 2rem;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 10vh; 
     overflow: hidden;
     transition: height 1s ease-in-out;
 }
@@ -149,7 +150,7 @@ p{
 }
 
 .nav .nav-items .nav-link:hover{
-    background-color: var(--midnight);
+    background-color: #7298BE;
 }
 
 .nav .nav-items .nav-link:hover a{
@@ -185,7 +186,7 @@ p{
 main .site-title{
     background: url('/images/Oat.jpeg');
     background-size: cover;
-    height: 90vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
 }

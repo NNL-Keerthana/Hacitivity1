@@ -1,27 +1,115 @@
 table, th, td {
-    border: 1px solid rgba(243, 239, 239, 0.83);
-    border-collapse: collapse;
-    align-items: center;
-    text-align: center;
-  }
-  .center {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  tr:nth-child(even) {
-    background-color: rgba(7, 248, 248, 0.611);
-  }
-  
-  th:nth-child(even),td:nth-child(even) {
-    background-color: rgba(17, 250, 250, 0.4);
-  }
-  h1{
-    text-align: center;
-  }
-  body {
-    background-color: rgb(15, 14, 14);
-  }
-  .service
+  border: 1px solid rgba(243, 239, 239, 0.83);
+  border-collapse: collapse;
+  align-items: center;
+  text-align: center;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+tr:nth-child(even) {
+  background-color: rgba(7, 248, 248, 0.611);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(17, 250, 250, 0.4);
+}
+h1{
+  text-align: center;
+}
+body {
+  background-color: rgb(15, 14, 14);
+}
+
+
+
+
+/* >>>>>>>>>>>>>>........ */
+.button-64 {
+align-items: center;
+background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+border: 0;
+border-radius: 8px;
+box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+box-sizing: border-box;
+color: #FFFFFF;
+display: flex;
+font-family: Phantomsans, sans-serif;
+font-size: 10px;
+justify-content: center;
+line-height: 1em;
+max-width: 100%;
+min-width: 140px;
+padding: 3px;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+white-space: nowrap;
+cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+outline: 0;
+}
+
+.button-64 span {
+background-color: rgb(5, 6, 45);
+padding: 16px 24px;
+border-radius: 6px;
+width: 100%;
+height: 100%;
+transition: 300ms;
+}
+
+.button-64:hover span {
+background: none;
+}
+
+@media (min-width: 768px) {
+.button-64 {
+  font-size: 24px;
+  min-width: 196px;
+}
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.button-62 {
+background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+border: 0;
+border-radius: 12px;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 2.5;
+outline: transparent;
+padding: 0 1rem;
+text-align: center;
+text-decoration: none;
+transition: box-shadow .2s ease-in-out;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.yt {
+color: #ef0a34;
+font-size: large;
+}
+
+.service
 {
 width: 100%;
 background: #111;
@@ -33,92 +121,214 @@ padding: 50px 0px;
 width: 1200px;
 margin:auto;
 padding:25px 0px;
-color: azure;
+}
+.service .text h1
+{
+color: #fff;
+font-weight: bold;
+font-size: 40px;
+text-align: center;
+}
+.service .text span
+{
+color: #20ffd8;
+font-weight: bold;
+}
+.service .box
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 50px;
+}
+.service .box div
+{
+width: 350px;
+background:#2a5758;
+border-radius: 10px;
+text-align: center;
+padding:20px 10px;
+}
+.service .box div ion-icon
+{
+color: rgb(195, 35, 35);
+font-size: 50px;
+padding-top: 20px;
+}
+.service .box div h2
+{
+font-weight: bold;
+cursor: pointer;
+padding-top: 20px;
+}
+.service .box div p
+{
+color: white;
+line-height: 25px;
+padding:30px;
+font-weight: bold;
+font-family: Arial;
+}
+/* .service button
+{
+width: 140px;
+height: 45px;
+border-radius: 25px;
+background-color: #e33;
+cursor: pointer;
+font-size: 15px;
+border:2px solid #e33;
+transition: .5s;
+color: #fff;
+margin-left: 100px;
+margin-top: 30px;
+}
+.service button:hover
+{
+background-color: white;
+border-color: #e11;
+border-radius: 30px;
+color: #e33;
+} */
+
+.service .box div c2
+{
+font-weight: bold;
+cursor: pointer;
+padding-top: 10px;
+}
+.service .box div c2
+{
+color: white;
+line-height: 25px;
+padding:20px;
+font-weight: bold;
+font-family: Arial;
+}
+
+.service .boxes
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 50px;
+}
+
+.service .boxes div
+{
+width: 1000px;
+background:#2a5758;
+border-radius: 10px;
+text-align: center;
+padding:20px 10px;
+}
+
+.service .boxes div h2
+{
+font-weight: bold;
+cursor: pointer;
+padding-top: 5px;
+color: #fff;
+}
+.service .boxes div p
+{
+color: white;
+line-height: 25px;
+padding:20px;
+font-weight: bold;
+font-family: Arial;
+}
+
+.service .boxes .para
+{
+color: white;
+line-height: 10px;
+padding:8px;
+font-weight: bold;
+font-family: Arial;
 }
 
 
-
-
-/* >>>>>>>>>>>>>>........ */
-.button-64 {
-  align-items: center;
-  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
-  border: 0;
-  border-radius: 8px;
-  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  display: flex;
-  font-family: Phantomsans, sans-serif;
-  font-size: 10px;
-  justify-content: center;
-  line-height: 1em;
-  max-width: 100%;
-  min-width: 140px;
-  padding: 3px;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  cursor: pointer;
+.service .boxes .para ion-icon
+{
+color: rgb(195, 35, 35);
+font-size: 50px;
+padding-top: 20px;
 }
 
-.button-64:active,
-.button-64:hover {
-  outline: 0;
+
+.bn5 {
+padding: 0.6em 2em;
+border: none;
+outline: none;
+color: rgb(255, 255, 255);
+background: #111;
+cursor: pointer;
+position: relative;
+z-index: 0;
+border-radius: 10px;
 }
 
-.button-64 span {
-  background-color: rgb(5, 6, 45);
-  padding: 16px 24px;
-  border-radius: 6px;
-  width: 100%;
-  height: 100%;
-  transition: 300ms;
+.bn5:before {
+content: "";
+background: linear-gradient(
+  45deg,
+  #ff0000,
+  #ff7300,
+  #fffb00,
+  #48ff00,
+  #00ffd5,
+  #002bff,
+  #7a00ff,
+  #ff00c8,
+  #ff0000
+);
+position: absolute;
+top: -2px;
+left: -2px;
+background-size: 400%;
+z-index: -1;
+filter: blur(5px);
+width: calc(100% + 4px);
+height: calc(100% + 4px);
+animation: glowingbn5 20s linear infinite;
+opacity: 0;
+transition: opacity 0.3s ease-in-out;
+border-radius: 10px;
 }
 
-.button-64:hover span {
-  background: none;
+@keyframes glowingbn5 {
+0% {
+  background-position: 0 0;
+}
+50% {
+  background-position: 400% 0;
+}
+100% {
+  background-position: 0 0;
+}
 }
 
-@media (min-width: 768px) {
-  .button-64 {
-    font-size: 24px;
-    min-width: 196px;
-  }
-}
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.button-62 {
-  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
-  border: 0;
-  border-radius: 12px;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 2.5;
-  outline: transparent;
-  padding: 0 1rem;
-  text-align: center;
-  text-decoration: none;
-  transition: box-shadow .2s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
+.bn5:active {
+color: #000;
 }
 
-.button-62:not([disabled]):focus {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+.bn5:active:after {
+background: transparent;
 }
 
-.button-62:not([disabled]):hover {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+.bn5:hover:before {
+opacity: 1;
 }
-.yt {
-  color: #ef0a34;
-  font-size: large;
+
+.bn5:after {
+z-index: -1;
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+background: #191919;
+left: 0;
+top: 0;
+border-radius: 10px;
 }

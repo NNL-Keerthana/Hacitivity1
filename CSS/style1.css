@@ -1,6 +1,8 @@
 body {
-    background-color: #121212;
-    color: white;
+  background: url('/images/aes2.webp');
+  background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
     font-family: sans-serif;
 
     font-size: 16px;
@@ -9,7 +11,7 @@ body {
 } 
 
 .LightMode {
-    background-color: #fafafa;
+    background: url('/images/aes2.webp');
     color: black;
   }  
 
@@ -25,4 +27,236 @@ body {
     background-color: transparent;     
   }
 
-  
+  /* main container */
+.monTitle{
+    background-color: #FFCAD4;
+    text-align: center;    
+}
+
+table{
+    background: url('/images/tablebg.jpg');
+    color: black;
+}
+
+input{
+    background-color: #DEEFF5;    
+}
+
+.containerMon{
+	top:0px;	
+	width:100%;
+	height:100%;
+  min-height: 800px;
+	position:absolute;
+	left:0%;
+  background-size: cover;
+} 
+
+.front {
+  position:absolute;
+  z-index: 2;
+}
+
+.behind {
+  position:absolute;
+  z-index: 1;
+}
+
+.nfront {
+  position:relative;
+  z-index: 2;
+}
+
+.nbehind {
+  position: relative;  
+  z-index: 1;
+}
+
+.loader {
+    text-align: center;
+}
+.loader span {
+    display: inline-block; 
+   
+	  margin: 220px 40px 54px  -34px;
+         background:url("https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/indian-rupee-coin-color-icon.png");
+  background-size: contain;
+    
+    -webkit-animation: loader 10s infinite  linear;
+    -moz-animation: loader 10s infinite  linear;
+}
+.loader span:nth-child(5n+5) {
+
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+}
+.loader span:nth-child(3n+2) {
+
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+}
+.loader span:nth-child(2n+5) {
+
+    -webkit-animation-delay: 1.7s;
+    -moz-animation-delay: 1.7s;
+}
+
+.loader span:nth-child(3n+10) {
+
+    -webkit-animation-delay: 2.7s;
+    -moz-animation-delay: 2.7s;
+}
+.loader span:nth-child(7n+2) {
+
+    -webkit-animation-delay: 3.5s;
+    -moz-animation-delay: 3.5s;
+}
+.loader span:nth-child(4n+5) {
+
+    -webkit-animation-delay: 5.5s;
+    -moz-animation-delay: 5.5s;
+}
+.loader span:nth-child(3n+7) {
+
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+}
+@-webkit-keyframes loader {
+  0% {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+
+	-webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+
+	-webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+  }
+  100% {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+
+	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
+}
+@-moz-keyframes loader {
+  0% {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    
+	-webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+   
+	-webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+  }
+  100% {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    
+	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
+}
+
+.box
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alfa Slab One',cursive;
+}
+
+body .box{
+    display: flex;
+    justify-content: center;    
+}
+
+.containerBox{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%;
+}
+
+
+.containerBox .card {
+    width: 308px;
+    position: relative;
+    height : 400px;
+    background: #f0f0f0;
+    margin : 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction:column ;
+    box-shadow: 0.5px 10px #e6e6e6 ;
+    transition: 0.3s ease-in-out;
+    margin-top : 5%;
+}
+.containerBox .card .imgBx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0 5px 20px rbga(0,0,0,1.2);
+}
+.containerBox .card .imgBx img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.imgBx:hover img {
+    transform: scale(1.1);
+}
+
+.containerSPLBox{
+  position: relative;
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 8%;
+}
+.containerSPLBox .cardSPL {
+  width: 1100px;
+  position: relative;
+  height : 350px;
+  background: #f0f0f0;
+  margin : 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction:column;
+  box-shadow: 0.5px 10px #e6e6e6 ;
+  transition: 0.3s ease-in-out;
+  margin-top : 5%;
+}
+.containerSPLBox .cardSPL .imgBxSPL {
+  position: relative;
+  width: 1260px;
+  height: 4000px;
+  left: 20px;
+  top: -60px;
+  box-shadow: 0 5px 20px rbga(0,0,0,1.2);
+}
+
+.containerSPLBox .cardSPL .imgBxSPL img {
+  width: 400px;
+  border-radius: 10px;
+}
+.imgBxSPL:hover img {
+  transform: scale(1.1);
+}

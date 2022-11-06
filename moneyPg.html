@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stun-Money Manager</title>    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./CSS/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="./CSS/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./CSS/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style1.css">
+    <script lang="javascript">
+        function fn(){
+            var a = Number(document.getElementById("1").value);
+            var b = Number(document.getElementById("2").value);
+            var c = Number(document.getElementById("3").value);
+            var d = Number(document.getElementById("4").value);
+            var e = Number(document.getElementById("5").value);
+            var f = Number(document.getElementById("6").value);
+            var g = Number(document.getElementById("7").value);
+            var h = Number(document.getElementById("8").value);
+            var tot = a + b + c + d + e + f + g + h;
+            document.getElementById("9").innerHTML = "Total: " + tot;
+
+            var A = Number(document.getElementById("11").value);
+            var B = Number(document.getElementById("12").value);
+            var C = Number(document.getElementById("13").value);
+            var D = Number(document.getElementById("14").value);
+            var E = Number(document.getElementById("15").value);
+            var F = Number(document.getElementById("16").value);
+            var G = Number(document.getElementById("17").value);
+            var H = Number(document.getElementById("18").value);
+            var I = Number(document.getElementById("19").value);
+            var Tot = A+B+C+D+E+F+G+H+I;
+            document.getElementById("20").innerHTML = "Total: " + Tot;
+
+            var bud = Number(document.getElementById("budget").value);
+            document.getElementById("s").innerHTML = "Savings: " + (bud-tot-Tot);
+        }
+    </script>
+
+</head>
+<body>
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">STUN</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="landingPg.html">Home</a>
+                    </li>                   
+                    <li class="nav-link">
+                        <a href="#">Attendence</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="">Gym</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Talent Corner</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="moneyPg.html">Money Manager</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="##">Student Resources</a>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Title ------------------------------>
+    <div class="monTitle">
+        <h1>MONEY MANAGER</h1>
+    </div>
+    <!------------x----------------- Title ---------------x--------------->
+    
+    <!----------------------------- COINS ------------------------------>
+    
+    <div class="containerMon behind">
+        <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        <span></span>
+        <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+    </div>
+
+    <!----------x------------------- COINS ------------------x------------> 
+   
+
+    <!----------------------------- Site-Content ------------------------------>
+    
+    <div class="front">
+
+    <center><h2>Enter Month's Budget:
+    <input type="text" id="budget"></h2></center>
+    <br>
+    <!-- 
+    <a href="Needs.html" target="_self">Needs</a>
+    <a href="wants.html" target="_self">Wants</a>-->
+    <center><font></font><h3>Needs</h3></center>
+    
+    <table style="width: 99.4723%;" border="1" cellspacing="0" cellpading="0" >
+        <tr>
+            <th width="38%">Aa item</th>
+            <th width="15.3666%">#Amount</th>
+            <th style="width: 228.633%;">📝Notes</th>
+        </tr>
+        <tr>
+            <td>🏫Hostel</td>
+            <td><input type="text" id="1"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>🍞Mess</td>
+            <td><input type="text" id="2"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>📚Tuition/Courses/Books</td>
+            <td><input type="text" id="3"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>🌐Internet</td>
+            <td><input type="text" id="4"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>📱CellPhone</td>
+            <td><input type="text" id="5"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>🛍️Groceries</td>
+            <td><input type="text" id="6"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>🚇Public transportation</td>
+            <td><input type="text" id="7"></td>
+            <td><input type="text" size="100"></td>
+        </tr>
+        <tr>
+            <td>🐥Other Needs</td>
+            <td><input type="text" id="8"></td>
+            <td><input type="text" size="100"></td>
+        </tr><!-- 
+        <tr><td align="center"><input type="submit" onclick="fn()"/>-->
+        </td><td colspan="3" align="center" id="9">
+        Total</td></tr>        
+    </table>
+    <br>
+    <center><h3>Wants</h3></center>
+    <table style="width: 99.4723%;" border="01" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <th>Item</th>
+                <th>#Amount</th>
+                <th>📝Notes</th>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🍔Eating Out</td>
+                <td style="width: 15.3666%;"><input type="text" id="11" ></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🏐Hobbies</td>
+                <td style="width: 15.3666%;"><input type="text" id="12"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">📺Streaming Packages</td>
+                <td style="width: 15.3666%;"><input type="text" id="13"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🕺Entertainment</td>
+                <td style="width: 15.3666%;"><input type="text" id="14"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">👕Clothing</td>
+                <td style="width: 15.3666%;"><input type="text" id="15"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🧳Travel expenses</td>
+                <td style="width: 15.3666%;"><input type="text" id="16"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🏋️‍♀️Gym</td>
+                <td style="width: 15.3666%;"><input type="text" id="17"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🎂Birthday gifts</td>
+                <td style="width: 15.3666%;"><input type="text" id="18"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td style="width: 38%;">🐥Other Wants</td>
+                <td style="width: 15.3666%;"><input type="text" id="19"></td>
+                <td style="width: 228.633%;"><input type="text" size="100"></td>
+            </tr>
+            <tr><!-- 
+                <td align="center"><input type="submit" onclick="fn1()" /></td>-->
+                <td colspan="3" align="center" id="20">Total:</td>
+            </tr>
+        </tbody>
+        </table>
+        <br>
+        <center><input type="SUBMIT" onclick="fn()" /></center>
+        <br>
+        <center><section id="s"><h2>Savings:</h2></section></center>
+    </div>
+
+    <!-----------x------------------ Site-Content ------------------x------------>
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+    <script src="./js/script.js"></script> 
+
+
+</body>
