@@ -15,7 +15,7 @@ This is a website by the students and for the students specially customised for 
 
 ## Screenshots:
 
-[Screenshot (501)](https://user-images.githubusercontent.com/96995729/200186838-076fc4e6-d73d-4c0f-b2cf-b59104f7bd70.png)
+![Screenshot (501)](https://user-images.githubusercontent.com/96995729/200186838-076fc4e6-d73d-4c0f-b2cf-b59104f7bd70.png)
 
 ![gympage](https://user-images.githubusercontent.com/96995729/200186871-9579d3bc-e123-4bf7-a185-644b5ac4a8ff.png)
 ![Screenshot (502)](https://user-images.githubusercontent.com/96995729/200186942-cc1f3bc5-c41f-4a55-a717-6b78ed039c75.png)
