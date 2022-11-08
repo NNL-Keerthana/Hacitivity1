@@ -94,20 +94,17 @@ p{
     color: var(--text-light);
 }
 
-.monTitle{
-    background-color: #FFCAD4;
-    text-align: center;    
-}
-
 /* ------x------- Global Classes -------x-------*/
 
 /* --------------- navbar ----------------- */
 
 .nav{
-    background: white;
+    background: url('/images/wave1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;    
     padding: 0 2rem;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 10vh; 
     overflow: hidden;
     transition: height 1s ease-in-out;
 }
@@ -153,7 +150,7 @@ p{
 }
 
 .nav .nav-items .nav-link:hover{
-    background-color: var(--midnight);
+    background-color: #7298BE;
 }
 
 .nav .nav-items .nav-link:hover a{
@@ -180,16 +177,16 @@ p{
     color: #a1c4cf;
 }
 
-/* -------x------- navbar ---------x------- */
+
 
 
 /* ----------------- Main Content----------- */
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../images/iiitk.jpg');
+    background: url('/images/Oat.jpeg');
     background-size: cover;
-    height: 90vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
 }
@@ -225,6 +222,7 @@ main .blogpage-title h3{
 /* --------x------ Blogpage title --------x------- */
 
 /* ---------------- Site Content ----------------*/
+
 main .post-content{
     width: 100%;    
 }
