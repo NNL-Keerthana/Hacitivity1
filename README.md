@@ -14,33 +14,27 @@ This is a website by the students and for the students specially customised for 
 - Student Resources: All of sem's references at your screen.  
 
 ## Screenshots:
-
+### Home Page:
 ![Screenshot (501)](https://user-images.githubusercontent.com/96995729/200186838-076fc4e6-d73d-4c0f-b2cf-b59104f7bd70.png)
-
+### Gym Page:
 ![gympage](https://user-images.githubusercontent.com/96995729/200186871-9579d3bc-e123-4bf7-a185-644b5ac4a8ff.png)
+### Customised Workout plan:
 ![Screenshot (502)](https://user-images.githubusercontent.com/96995729/200186942-cc1f3bc5-c41f-4a55-a717-6b78ed039c75.png)
-
-
-
-
-
+### Leave Calculator:
 ![Screenshot (503)](https://user-images.githubusercontent.com/96995729/200186891-ac521e46-af8c-4e15-9391-8375ddc8aafa.png)
-
+### Venting Corner:
 ![Screenshot (504)](https://user-images.githubusercontent.com/96995729/200186916-abb59174-8cc6-46d3-85f1-9f9d526a81ac.png)
-
+### Student Resources:
 ![Screenshot (506)](https://user-images.githubusercontent.com/96995729/200186927-63a2c881-4358-4f1d-9bc0-ec35cff47e0c.png)
-
-
-
+### Money Manager:
 ![Screenshot (505)](https://user-images.githubusercontent.com/96995729/200186904-b9f2ac34-ce79-4411-8664-d9c9a9af9a08.png)
 
 
 
 
 
-- We sincerely hope it fulfills our intent!
-ions and aids your needs.
-Thank You!!!! 😄😄
+## We sincerely hope it fulfills our intentions and aids your needs.
+## Thank You!!!! 😄😄
 
 
 
